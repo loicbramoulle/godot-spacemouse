@@ -1,0 +1,17 @@
+; Minimal project used to validate and preview the editor plugin.
+; Copy addons/spacemouse_bridge into an existing Godot 4 project to install.
+
+config_version=5
+
+[application]
+
+config/name="SpaceMouse Bridge for Godot"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/spacemouse_bridge/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

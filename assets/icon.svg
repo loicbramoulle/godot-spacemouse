@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">SpaceMouse Bridge for Godot</title>
+  <desc id="desc">A six-axis controller puck surrounded by three colored motion arcs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#26324a"/>
+      <stop offset="1" stop-color="#101624"/>
+    </linearGradient>
+    <linearGradient id="puck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#94a8c8"/>
+      <stop offset="1" stop-color="#41536f"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#bg)"/>
+  <path d="M42 128a86 86 0 0 1 148-59" fill="none" stroke="#62d2ff" stroke-width="12" stroke-linecap="round"/>
+  <path d="m189 49 7 29-29-7" fill="none" stroke="#62d2ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M214 138a86 86 0 0 1-139 66" fill="none" stroke="#8ee36b" stroke-width="12" stroke-linecap="round"/>
+  <path d="m77 221-10-28 30 4" fill="none" stroke="#8ee36b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M65 72a86 86 0 0 0-7 107" fill="none" stroke="#ffbe55" stroke-width="12" stroke-linecap="round"/>
+  <path d="m43 179 29-7-8 29" fill="none" stroke="#ffbe55" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="132" cy="159" rx="57" ry="27" fill="#243147" stroke="#b7c8df" stroke-width="5"/>
+  <path d="M91 157v-49c0-21 18-38 41-38s41 17 41 38v49c0 14-18 25-41 25s-41-11-41-25Z" fill="url(#puck)" stroke="#d5e2f4" stroke-width="6"/>
+  <ellipse cx="132" cy="108" rx="41" ry="27" fill="#7f95b7" stroke="#d5e2f4" stroke-width="6"/>
+  <circle cx="132" cy="108" r="9" fill="#62d2ff"/>
+</svg>
+
