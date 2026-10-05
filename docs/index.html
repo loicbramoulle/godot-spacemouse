@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SpaceMouse Bridge for Godot 4 — Free 3Dconnexion Plugin</title>
+  <meta name="description" content="Free, open-source SpaceMouse support for Godot 4 on Windows. Navigate the 3D editor viewport with a 3Dconnexion SpaceMouse using reliable raw-HID input.">
+  <meta name="keywords" content="Godot SpaceMouse plugin, 3Dconnexion Godot addon, SpaceMouse Godot 4, 6DoF Godot editor navigation, 3D mouse Godot">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://loicbramoulle.github.io/godot-spacemouse/">
+  <meta property="og:title" content="SpaceMouse Bridge for Godot 4">
+  <meta property="og:description" content="Free six-axis editor navigation for 3Dconnexion SpaceMouse devices in Godot 4 on Windows.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://loicbramoulle.github.io/godot-spacemouse/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/loicbramoulle/godot-spacemouse/main/assets/icon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "SpaceMouse Bridge for Godot",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Windows 10, Windows 11",
+    "softwareVersion": "1.0.1",
+    "description": "Free six-axis editor navigation for 3Dconnexion SpaceMouse devices in Godot 4.",
+    "license": "https://opensource.org/license/mit",
+    "downloadUrl": "https://github.com/loicbramoulle/godot-spacemouse/releases/download/v1.0.1/godot-spacemouse-v1.0.1.zip",
+    "codeRepository": "https://github.com/loicbramoulle/godot-spacemouse",
+    "isAccessibleForFree": true,
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+  }
+  </script>
+  <style>
+    :root { color-scheme: dark; --bg:#0e1421; --panel:#172136; --text:#ecf4ff; --muted:#adbed6; --cyan:#62d2ff; --green:#8ee36b; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:18px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--text); background:radial-gradient(circle at 50% -20%,#273c61 0,var(--bg) 48%); }
+    main { width:min(920px,calc(100% - 32px)); margin:auto; padding:72px 0; }
+    header { text-align:center; }
+    img { width:148px; height:148px; }
+    h1 { margin:20px 0 8px; font-size:clamp(2.2rem,7vw,4.6rem); line-height:1.02; letter-spacing:-.045em; }
+    .lead { max-width:720px; margin:20px auto 32px; color:var(--muted); font-size:1.2rem; }
+    .buttons { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+    .button { display:inline-block; padding:13px 22px; border-radius:12px; color:#07111b; background:var(--cyan); font-weight:750; text-decoration:none; }
+    .button.secondary { color:var(--text); background:transparent; border:1px solid #526783; }
+    section { margin-top:64px; padding:28px; background:color-mix(in srgb,var(--panel) 88%,transparent); border:1px solid #2d405f; border-radius:20px; }
+    h2 { margin-top:0; }
+    li { margin:.5rem 0; }
+    code { color:var(--green); }
+    footer { color:var(--muted); text-align:center; margin-top:48px; font-size:.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="https://raw.githubusercontent.com/loicbramoulle/godot-spacemouse/main/assets/icon.svg" alt="SpaceMouse Bridge icon">
+    <h1>SpaceMouse navigation for Godot 4</h1>
+    <p class="lead">A free, open-source editor plugin that gives Godot reliable six-axis navigation with 3Dconnexion SpaceMouse devices on Windows.</p>
+    <div class="buttons">
+      <a class="button" href="https://github.com/loicbramoulle/godot-spacemouse/releases/download/v1.0.1/godot-spacemouse-v1.0.1.zip">Download v1.0.1</a>
+      <a class="button secondary" href="https://github.com/loicbramoulle/godot-spacemouse">View source and documentation</a>
+    </div>
+  </header>
+  <section>
+    <h2>Built for actual 3D work</h2>
+    <ul>
+      <li>Pan, orbit, fly, and zoom directly in Godot's 3D editor viewport.</li>
+      <li>Control selected Camera3D nodes and runtime cameras.</li>
+      <li>Raw-HID input works alongside 3DxWare and Blender.</li>
+      <li>Per-axis inversion, smoothing, deadzone, adaptive speed, and horizon lock.</li>
+      <li>Automatic hidden bridge startup and built-in diagnostics.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Install in three steps</h2>
+    <ol>
+      <li>Copy <code>addons/spacemouse_bridge</code> into your Godot project.</li>
+      <li>Run <code>python_bridge/install_requirements.bat</code> once.</li>
+      <li>Enable <strong>SpaceMouse Bridge</strong> under Project Settings → Plugins.</li>
+    </ol>
+  </section>
+  <footer>Unofficial community project. Not affiliated with or endorsed by 3Dconnexion. Released under the MIT License.</footer>
+</main>
+</body>
+</html>
